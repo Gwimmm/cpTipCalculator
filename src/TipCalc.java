@@ -17,17 +17,7 @@ public class TipCalc {
         this.tipPercent = (tipPercent * .01);
         this.Tip = (bill * tipPercent);
         this.billTip = bill + Tip;
-        this.tipSplit = (Tip/people);
-        return "The tip would be " + Tip + ", the tip split would be " + tipSplit + ", making the total now " + billTip + ", which is" + (billTip / people) + " per person.";
+        this.tipSplit = (Tip / people);
+        return "The tip would be " + Tip + ", the tip split would be " + tipSplit + ", making the total now " + billTip + ", which is " + (billTip / people) + " per person.";
     }
-    public double getTipPercent() {
-        this.tipPercent = (tipPercent * .01);
-        return tipPercent;
-    }
-
-
-
-
-
-
 }
